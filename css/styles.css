@@ -1,22 +1,23 @@
-img {
-  float: left;
-  width: 500px;
+#main-image {
+  width: 60%;
 }
 
-.sidebar {
+.songs {
+  width: 30%;
   float: right;
-  width: 500pt;
-  background-color: yellow;
+  border: 5px solid green; 
+  height: 500px;
+  background-color: rgb(53, 77, 185);
+  text-align: center;
 }
 
-.column {
-  width: 300px;
-  float: center;
+.row {
+  /* width: 100px; */
+  display: flex;
+  justify-content: space-around;
 }
 
-.transition {
-  float: right;
-  width: 300px;
-  margin-top: 300px;
-  margin-left: 50px;
-}
+/* .column {
+  width: 100px;
+  border: 5px solid black;
+} */
